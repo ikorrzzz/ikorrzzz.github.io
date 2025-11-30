@@ -160,13 +160,13 @@ input[type="file"]{
 
 .upload-status.success{
     background-color: #d4edda;
-    color: aquamarine;
+    color: rgb(17, 255, 0);
     border: 1px solid #cfded2;
 }
 
 .upload-status.error{
     background-color: #868c87;
     color: red;
-    border: 1px solid rgb(174, 185, 177);
+    border: 1px solid rgb(39, 29, 155);
 }
 
