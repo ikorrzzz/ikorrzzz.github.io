@@ -14,7 +14,7 @@ function createImageItem(image){
     item.className = 'image-item'
     item.dataset.id = image.id
 
-    const shotUrl = image.url.substring(0, 500) + '...'
+    const shotUrl = image.url.substring(0, 10) + '...'
     const icon = getFileIcon(image.name)
 
     item.innerHTML = `
